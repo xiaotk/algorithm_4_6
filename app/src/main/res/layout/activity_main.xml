@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取2的平方"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show2PingFangTV"/>
+    <EditText
+        android:id="@+id/get2PingFangET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要计算的数"/>
+
+    <Button
+        android:id="@+id/get2PingFangBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算"/>
+    <Button
+        android:id="@+id/go2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题"/>
+
+</LinearLayout>

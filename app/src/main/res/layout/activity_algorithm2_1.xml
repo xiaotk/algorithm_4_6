@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/algorithm2_1ResultTV"
+        />
+    <Button
+        android:text="下一题"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/go2_2"
+        />
+</LinearLayout>
